@@ -7,23 +7,44 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container"><h1>ESCALANDO PLAYERS</h1>
-        <script src="main.js"></script>
+    <div class="container">
+      <a href="https://github.com/Eliazynho/"><img src="assets/preto.png" alt="logo eu" class="logo"></a>
+      <h1>ESCALANDO PLAYERS</h1>
+      <div class="form-container">        
         <form action="" class="form">
-          <div class="name">
-            <label for="playerName">NOME DO JOGADOR: </label>
-            <input type="text" name="playerName" id="playerName" />
-          </div>
-          <div class="name">
-            <label for="playerNumber">NUMERO DO JOGADOR: </label>
-            <input type="text" name="playerNumber" id="playerNumber" />
-          </div>
-          <div class="name">
-            <label for="playerPosition">POSICAO DO JOGADOR: </label>
-            <input type="text" name="playerPosition" id="playerPosition" />
-          </div>
-          <input type="submit" value="Submit" />
-        </form></div>
-    
+        <div class="name">
+          <label for="playerName">NOME DO JOGADOR: </label>
+          <input type="text" name="playerName" id="playerName" />
+        </div>
+        <div class="name">
+          <label for="playerNumber">NUMERO DO JOGADOR: </label>
+          <input type="text" name="playerNumber" id="playerNumber" />
+        </div>
+        <div class="name">
+          <label for="playerPosition">POSICAO DO JOGADOR: </label>
+          <input type="text" name="playerPosition" id="playerPosition" />
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Numero</th>
+            <th>Posicao</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Os dados serão preenchidos aqui -->          
+        </tbody>
+      </table>
+    </div>
+    <div>
+
+    </div>
+
+        <footer>Desenvolvido por <a href="https://github.com/Eliazynho">Elias.DEV</a></footer>
+      </div>
+    <script src="main.js"></script>
   </body>
 </html>

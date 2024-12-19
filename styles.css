@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+.logo {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
 .form {
     background-color: #fff;
     padding: 20px;
@@ -49,4 +54,31 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
